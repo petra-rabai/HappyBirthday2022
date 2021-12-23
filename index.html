@@ -1,36 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/609b7a20a3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <script type="text/javascript" src="js\script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/609b7a20a3.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Happy Birthday 2022</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="content">
-        <div id="header">
-            <h1><i class="fas fa-birthday-cake"></i> Boldog Születésnapot! <i class="fas fa-birthday-cake"></i></h1>
+      <div id="header">
+        <h1>
+          <i class="fas fa-birthday-cake"></i> Boldog Születésnapot!
+          <i class="fas fa-birthday-cake"></i>
+        </h1>
+      </div>
+      <div id="bookbody">
+        <div id="bookdescription">
+            <h5>Lassan ez is hagyomány már, hogy minden évben készítek egy weboldalt a születés napodra. Az idei évben szerettem volna olyat adni ami egyedi és megőrzi azt hogy, a barátságunk mennyire fontos a számomra, és hogy milyen hálás vagyok hogy ismerhetlek. Ha valamikor is rossz kedved lenne akkor remélem ez a kis gyűjtemény jó kedvre derít majd. </h5>
         </div>
-        <div id="bookbody">
-            <div id="coverpage">
-                <img class="img-responsive" src="img/ourstorybookcover.png" alt="cover">
-            </div>
-            <div id="pages">
-                <div id="previouspage">
-
+        <div id="content-section" class="accordion">
+          <div class="panel">
+            <div id="carousel-section">
+              <div class="slideshow-container">
+                <img
+                  id="imageone"
+                  src="img/ourstorybookcover.png"
+                  style="width: 100%; max-width: 300px"
+                  class="img-responsive img-fluid"
+                />
+                <div class="mySlides">
+                  <img
+                    src="img/ourstorybookpage1.png"
+                    style="width: 100%; max-width: 300px"
+                    class="img-responsive img-fluid"
+                  />
                 </div>
-                <div id="nextpage">
 
+                <div class="mySlides">
+                  <img
+                    src="img/ourstorybookpage2.png"
+                    style="width: 100%; max-width: 300px"
+                    class="img-responsive img-fluid"
+                  />
                 </div>
-            </div>
-            <div id="endpage">
 
+                <div class="mySlides">
+                  <img
+                    src="img/ourstorybookpage3.png"
+                    style="width: 100%; max-width: 300px"
+                    class="img-responsive img-fluid"
+                  />
+                </div>
+              </div>
+              <br />
+
+              <!-- The dots/circles -->
+              <div style="text-align: center">
+                <span class="dot" onclick="currentSlidedot(1)"></span>
+                <span class="dot" onclick="currentSlidedot(2)"></span>
+                <span class="dot" onclick="currentSlidedot(3)"></span>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    
-    
-</body>
+  </body>
 </html>
