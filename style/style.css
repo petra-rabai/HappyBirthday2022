@@ -7,14 +7,20 @@ body {
 h1 {
   text-align: center;
 }
+#pagecover{
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 #coverpage {
   text-align: center;
 }
 #bookbody {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 #bookdescription {
   text-align: center;
+  margin-top: 30px;
   margin-bottom: 100px;
   border: 3px solid rgb(8, 59, 102);
 }
