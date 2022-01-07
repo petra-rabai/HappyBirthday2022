@@ -1,105 +1,101 @@
 body {
-  display:block;
+  display: block;
   background-color: rgb(223, 210, 194);
   padding: 5px;
-  }
+}
 
-    h1{
-      text-align: center;
-  }
-  #coverpage{
-      text-align: center;
-  }
-  #bookbody{
-      margin-top: 150px;
-  }
-  #bookdescription{
-    text-align: center;
-    margin-bottom: 100px;
-    border: 3px solid rgb(8, 59, 102);
-  }
-  
+h1 {
+  text-align: center;
+}
+#coverpage {
+  text-align: center;
+}
+#bookbody {
+  margin-top: 150px;
+}
+#bookdescription {
+  text-align: center;
+  margin-bottom: 100px;
+  border: 3px solid rgb(8, 59, 102);
+}
 
-  .panel {
-    padding: 0 18px;
-    background-color: rgb(223, 210, 194);
-    display: none;
-    overflow: hidden;
-  }
+.panel {
+  padding: 0 18px;
+  background-color: rgb(223, 210, 194);
+  display: none;
+  overflow: hidden;
+}
 
-  .accordion {
-    background-color: rgb(223, 210, 194);
-    color: rgb(8, 59, 102);
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    border: 2px solid rgb(8, 59, 102);
-    border-radius: 25px;
-    font-family: "Literata", serif;
-  }
-  
-  .accordion:after {
-    font-size: 13px;
-    color: rgb(8, 59, 102);
-    float: right;
-    margin-left: 5px;
-  }
-  
-  #carousel-section{
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  
-  img.hover-shadow {
-    transition: 0.3s;
-  }
-  
-  .hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+.accordion {
+  background-color: rgb(223, 210, 194);
+  color: rgb(8, 59, 102);
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border: 2px solid rgb(8, 59, 102);
+  border-radius: 25px;
+  font-family: "Literata", serif;
+}
 
-  #accordion3{
-    text-align: center;
-  }
+.accordion:after {
+  font-size: 13px;
+  color: rgb(8, 59, 102);
+  float: right;
+  margin-left: 5px;
+}
 
+#carousel-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-  /* Slideshow container */
-  .slideshow-container {
-      max-width: max-content;
-      position: relative;
-      margin: auto;
-    }
-    
-    /* Hide the images by default*/
-    .mySlides {
-      display: none;
-    }
-    
-    /* The dots/bullets/indicators */
-    .dot {
-      cursor: pointer;
-      height: 15px;
-      width: 15px;
-      margin-top: 50px;
-      margin: 0 2px;
-      background-color: rgb(8, 59, 102);
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
-    
-    .active,
-    .dot:hover {
-      background-color: rgb(255, 204, 0);
-    }
+img.hover-shadow {
+  transition: 0.3s;
+}
 
-    img{
-      border: 5px solid rgb(8, 59, 102);
-      box-shadow:10px 5px 5px rgb(255, 204, 0);
-    }
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+#accordion3 {
+  text-align: center;
+}
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: max-content;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default*/
+.mySlides {
+  display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-top: 50px;
+  margin: 0 2px;
+  background-color: rgb(8, 59, 102);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: rgb(255, 204, 0);
+}
+
+img {
+  border: 5px solid rgb(8, 59, 102);
+  box-shadow: 10px 5px 5px rgb(255, 204, 0);
+}
